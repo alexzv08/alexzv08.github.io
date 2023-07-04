@@ -267,6 +267,9 @@ footer{
     }
 }
 @media only screen and (max-width: 400px) {
+    footer{
+        left: 330px;
+    }
     .my-work{
         margin-top: 140px;
     }
@@ -276,7 +279,7 @@ footer{
 }
 @media only screen and (max-width: 368px) {
     footer{
-        left: 360px;
+        left: 330px;
     }
     .my-work{
         margin-top: 210px;
