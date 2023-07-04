@@ -276,7 +276,7 @@ footer{
 }
 @media only screen and (max-width: 368px) {
     .my-work{
-        margin-top: 210;
+        margin-top: 210px;
     }
     .works .work a{
         font-size: 60px;
