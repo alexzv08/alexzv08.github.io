@@ -274,3 +274,11 @@ footer{
         font-size: 60px;
     }
 }
+@media only screen and (max-width: 368px) {
+    .my-work{
+        margin-top: 210;
+    }
+    .works .work a{
+        font-size: 60px;
+    }
+}
