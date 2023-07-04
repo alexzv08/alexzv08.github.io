@@ -207,7 +207,9 @@ cursor: pointer;
     letter-spacing: -2px;
 }
 .my-work{
+    margin-top: 50px;
     height: 680px;
+    width: 80%;
 }
 .works{
     display: flex;
@@ -262,5 +264,10 @@ footer{
         position: fixed;
         width: 100%;
         z-index: 1;
+    }
+    @media only screen and (max-width: 400px) {
+        .works .work a{
+            font-size: 60px;
+        }
     }
 }
