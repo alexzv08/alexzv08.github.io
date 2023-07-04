@@ -268,7 +268,7 @@ footer{
 }
 @media only screen and (max-width: 400px) {
     footer{
-        left: 330px;
+        left: 360px;
     }
     .my-work{
         margin-top: 140px;
