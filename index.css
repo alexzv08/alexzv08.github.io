@@ -248,7 +248,7 @@ header .nav {
     line-height: normal;
     letter-spacing: -3.85px;
     position: relative;
-    border-bottom: var(--color-secundarioDark) 1px solid;
+    border-bottom:  hsla(35, 10%, 34%, 0.473) 1px solid;
 }
 
 .works .work a::before {
@@ -423,7 +423,6 @@ footer {
     .works {
         height: auto;
     }
-
     .works .work a {
         font-size: 90px;
         margin: 5% auto;
