@@ -206,7 +206,7 @@ header .nav {
 .title {
     height: 16px;
     justify-content: center;
-    color: var(--color-secundarioDark);
+    color: var(--color-secundario);
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
@@ -269,53 +269,63 @@ header .nav {
 .work a:hover:before {
     width: 150%;
 }
-.connect{
+
+.connect {
     height: 300px;
 }
-.container-connect{
+
+.container-connect {
     display: flex;
     flex-flow: column;
     width: 90%;
 
 }
-.container-connect .links{
+
+.container-connect .links {
     display: flex;
     flex-flow: row;
     align-items: center;
 }
-.links .box{
+
+.links .box {
     width: 17px;
     height: 17px;
     background: var(--color-terciario);
     margin-right: 23px;
 }
-.links .link a{
+
+.links .link a {
     color: var(--color-secundario);
     text-decoration: none;
     font-size: 32px;
     font-weight: bold;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-flow: column;
     margin-top: 30px;
     padding-bottom: 50px;
 }
-.contact .contact-info{
+
+.contact .contact-info {
     display: flex;
     flex-flow: column;
     margin-bottom: 31px;
 }
-.info-text{
+
+.info-text {
     font-size: 32px;
     color: white;
     font-weight: bold;
 }
-.contact-link{
+
+.contact-link {
     color: var(--color-secundarioDark);
     font-weight: bold;
     font-size: 28px;
 }
+
 footer {
     color: var(--color-secundarioDark);
 }
@@ -371,5 +381,58 @@ footer {
 
     .works .work a {
         font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 1028px) {
+    .header-info .header-name {
+        margin-top: 5%;
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+
+    .header-info .header-title .header-text {
+        height: 125px;
+        font-size: 140px;
+        letter-spacing: -10px;
+    }
+
+    .section {
+        width: 80%;
+        height: 500px;
+        margin: 10% auto 0;
+    }
+
+    .title {
+        margin-bottom: 5%;
+    }
+
+    .about-me-text {
+        height: auto;
+        color: #B7AB98;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -1px
+    }
+
+    .my-work {
+        height: auto;
+    }
+
+    .works {
+        height: auto;
+    }
+
+    .works .work a {
+        font-size: 90px;
+        margin: 5% auto;
+    }
+    footer {
+        bottom: 30px;
+        left: 95%;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
     }
 }
